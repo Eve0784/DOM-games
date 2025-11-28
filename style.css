@@ -1,5 +1,5 @@
 body {
-    display: flex;               /* Activamos Flexbox */
+    display: flex;              
     justify-content: center;     /* Centrado horizontal */
     align-items: center;         /* Centrado vertical */
     flex-direction: column;
@@ -92,7 +92,7 @@ h2, h3{
 .btn3:hover {
     background: #ec5909;
 }
-/* ------------------------------TARJETAS FLIP--------------------------------- */
+/* ------------------------------ FLIP CARDS--------------------------------- */
 .flip-card {
     width: 300px;
     height: 400px;
