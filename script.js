@@ -235,7 +235,7 @@ function orderGamesByTitle() {
     nintendoGames.sort(compareTitles);
     renderGameList(nintendoGames);
 }
-//-------------------------SI AGGIUNGE L'EVENTO AL BOTONE ----------------//
+//-------------------------SI AGGIUNGE L'EVENTO AL BOTTONE ----------------//
 const orderTitleBtn = document.getElementById('order-title');
 orderTitleBtn.addEventListener('click', orderGamesByTitle);
 
@@ -248,7 +248,7 @@ function orderPricesFromLowerToHigher() {
     nintendoGames.sort(comparePrices)
     renderGameList(nintendoGames)
 }
-//-------------------------SI AGGIUNGE L'EVENTO AL BOTONE ----------------//
+//-------------------------SI AGGIUNGE L'EVENTO AL BOTTONE ----------------//
 const priceOrderBtn = document.getElementById("order-lowprice");
 priceOrderBtn.addEventListener('click', orderPricesFromLowerToHigher)
 
@@ -261,7 +261,7 @@ function orderRatingFromLowerToHigher() {
     nintendoGames.sort(compareRating)
     renderGameList(nintendoGames)
 }
-//-------------------------SI AGGIUNGE L'EVENTO AL BOTONE ----------------//
+//-------------------------SI AGGIUNGE L'EVENTO AL BOTTONE ----------------//
 const ratingOrderBtn = document.getElementById("order-rating");
 ratingOrderBtn.addEventListener('click', orderRatingFromLowerToHigher)
 
