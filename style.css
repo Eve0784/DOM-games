@@ -130,14 +130,14 @@ h2, h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 18px;
+    font-size: 25px;
 }
 
 .flip-back {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    background: rgb(195, 242, 247);
+    background: rgb(255, 232, 210);
     border: 1px solid #ddd;
     transform: rotateY(180deg);
     font-size: 14px;
