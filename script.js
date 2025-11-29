@@ -254,7 +254,7 @@ priceOrderBtn.addEventListener('click', orderPricesFromLowerToHigher)
 
 //-------------------------FUNZIONE CHE COMPARA GLI I rating ----------------//
 function compareRating(r1, r2) {
-    return r1.rating - r2.rating
+    return r2.rating - r1.rating
 }
 //-------------------------FUNZIONE CHE ORDINA I PREZZI DAL PIU ECONOMICO AL PIU CARO ----------------//
 function orderRatingFromLowerToHigher() {
